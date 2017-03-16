@@ -5,7 +5,6 @@ const client_basic_auth = require('./basic-auth');
 const debug = require('debug')('veiled:index');
 
 /* Build up the clients endpoints */
-debug(clients);
 Object.keys(clients).forEach((client) => {
 
   var client_details = clients[client];

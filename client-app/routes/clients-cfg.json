@@ -26,5 +26,21 @@
                 "date": "16/03/2017"
             }
         ]
+    },
+    "alan-and-gary":{
+        "name": "Alan and Gary",
+        "project-name": "Photobook",
+        "auth":{
+            "user":"flaps",
+            "password": "away"
+        },
+        "versions": [
+            {
+                "name": "v.1",
+                "filename": "https://www.veiledproductions.co.uk/static/AnnaAndTimPhotobook_v1.zip",
+                "description": "First draft",
+                "date": "16/03/2017"
+            }
+        ]
     }
 }
