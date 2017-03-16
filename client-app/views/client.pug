@@ -1,0 +1,16 @@
+extends layout
+block heading
+    div.jumbotron
+        div.container
+            img(src="https://www.veiledproductions.co.uk/wp-content/uploads/2017/02/veiled-productions-002-300x123.png")
+            h1=name
+            h2=project
+block content
+
+  each v in versions
+    div.col-md-4
+        h2=v.name
+        h3
+            span.label.label-default=v.date
+        p=v.description
+        a.btn.btn-default(href=v.filename) Get your file

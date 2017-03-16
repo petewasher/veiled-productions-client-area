@@ -1,0 +1,30 @@
+{
+    "anna-and-tim":{
+        "name": "Anna and Tim",
+        "project-name": "Photobook",
+        "auth":{
+            "user":"anna",
+            "password": "tim"
+        },
+        "versions": [
+            {
+                "name": "v.1",
+                "filename": "https://www.veiledproductions.co.uk/static/AnnaAndTimPhotobook_v1.zip",
+                "description": "First draft",
+                "date": "16/03/2017"
+            },
+            {
+                "name": "v.2",
+                "filename": "https://www.veiledproductions.co.uk/static/AnnaAndTimPhotobook_v2.zip",
+                "description": "Second draft",
+                "date": "16/03/2017"
+            },
+            {
+                "name": "v.3",
+                "filename": "https://www.veiledproductions.co.uk/static/AnnaAndTimPhotobook_v3.zip",
+                "description": "Second draft",
+                "date": "16/03/2017"
+            }
+        ]
+    }
+}

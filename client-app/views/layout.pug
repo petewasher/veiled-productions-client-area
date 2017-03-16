@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title= title
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+  body
+
+    block heading
+    div.container#warning
+      div.row
+        div.alert.alert-info
+          p <b>Viewing Your Photobook Preview:</b> The way the PDF gets exported from our software is a little odd... it exports the cover first in its own file, then the pages in another. The first page of the pages PDF is a right-hand page - so you have to setup Adobe Reader (assuming you're using that...) to display the first page as a right-hand page (View -> Page Display -> Show Cover Page in Two Page View) and also set it to view in two-page mode (View -> Page Display -> Two Page View).
+    div.container
+      block content
