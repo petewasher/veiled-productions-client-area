@@ -1,8 +1,16 @@
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Raleway';
 }
 
-a {
-  color: #00B7FF;
+#topheader {
+  background: #9666a8;
+  color: #ffffff;
+  padding-left: 5%;
 }
+
+#topheader a {
+  color: white;
+}
+
+
